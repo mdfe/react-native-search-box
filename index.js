@@ -62,14 +62,14 @@ class Search extends Component {
     }
 
     onLayout = (event) => {
-        const contentWidth = event.nativeEvent.layout.width;
-        this.contentWidth = contentWidth;
-        this.middleWidth = contentWidth / 2;
-        if (this.state.expanded) {
-            this.expandAnimation();
-        } else {
-            this.collapseAnimation();
-        }
+        // const contentWidth = event.nativeEvent.layout.width;
+        // this.contentWidth = contentWidth;
+        // this.middleWidth = contentWidth / 2;
+        // if (this.state.expanded) {
+        //     this.expandAnimation();
+        // } else {
+        //     this.collapseAnimation();
+        // }
     }
 
     /**
