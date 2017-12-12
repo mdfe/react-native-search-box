@@ -1,6 +1,6 @@
 {
     "name": "@mdfe/react-native-search-box",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "A simple search box with animation, inspired from ios search bar. No library dependencies, lightweight, fast, flexible, customizable. Support both iOS/Android devices",
     "main": "index.js",
     "scripts": {
@@ -19,5 +19,8 @@
         "android",
         "anhtuank7c",
         "crabstudio"
-    ]
+    ],
+    "dependencies": {
+        "prop-types": "^15.6.0"
+    }
 }
